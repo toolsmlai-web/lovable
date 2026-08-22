@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "format": "prettier --write "src/**/*.{ts,tsx,css,json}"",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
     "test": "vitest",
     "deploy": "wrangler pages deploy dist"
   },
